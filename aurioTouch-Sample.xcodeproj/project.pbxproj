@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72F510621BA0FCD700C5A215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F510611BA0FCD700C5A215 /* AppDelegate.swift */; };
+		72F510641BA0FCD700C5A215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F510631BA0FCD700C5A215 /* ViewController.swift */; };
+		72F510671BA0FCD700C5A215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F510651BA0FCD700C5A215 /* Main.storyboard */; };
+		72F510691BA0FCD700C5A215 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F510681BA0FCD700C5A215 /* Images.xcassets */; };
+		72F5106C1BA0FCD700C5A215 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F5106A1BA0FCD700C5A215 /* LaunchScreen.xib */; };
+		72F510781BA0FCD700C5A215 /* aurioTouch_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F510771BA0FCD700C5A215 /* aurioTouch_SampleTests.swift */; };
+		72F510941BA0FD6800C5A215 /* AudioController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72F510841BA0FD6800C5A215 /* AudioController.mm */; };
+		72F510951BA0FD6800C5A215 /* BufferManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F510851BA0FD6800C5A215 /* BufferManager.cpp */; };
+		72F510961BA0FD6800C5A215 /* DCRejectionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F510871BA0FD6800C5A215 /* DCRejectionFilter.cpp */; };
+		72F510971BA0FD6800C5A215 /* FFTHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F510891BA0FD6800C5A215 /* FFTHelper.cpp */; };
+		72F510981BA0FD6800C5A215 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F5108D1BA0FD6800C5A215 /* CADebugMacros.cpp */; };
+		72F510991BA0FD6800C5A215 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F510901BA0FD6800C5A215 /* CAStreamBasicDescription.cpp */; };
+		72F5109A1BA0FD6800C5A215 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F510921BA0FD6800C5A215 /* CAXException.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F510721BA0FCD700C5A215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F510541BA0FCD700C5A215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F5105B1BA0FCD700C5A215;
+			remoteInfo = "aurioTouch-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72F5105C1BA0FCD700C5A215 /* aurioTouch-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aurioTouch-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F510601BA0FCD700C5A215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F510611BA0FCD700C5A215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72F510631BA0FCD700C5A215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72F510661BA0FCD700C5A215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72F510681BA0FCD700C5A215 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72F5106B1BA0FCD700C5A215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72F510711BA0FCD700C5A215 /* aurioTouch-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aurioTouch-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F510761BA0FCD700C5A215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F510771BA0FCD700C5A215 /* aurioTouch_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aurioTouch_SampleTests.swift; sourceTree = "<group>"; };
+		72F510831BA0FD6800C5A215 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		72F510841BA0FD6800C5A215 /* AudioController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioController.mm; sourceTree = "<group>"; };
+		72F510851BA0FD6800C5A215 /* BufferManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BufferManager.cpp; sourceTree = "<group>"; };
+		72F510861BA0FD6800C5A215 /* BufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferManager.h; sourceTree = "<group>"; };
+		72F510871BA0FD6800C5A215 /* DCRejectionFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DCRejectionFilter.cpp; sourceTree = "<group>"; };
+		72F510881BA0FD6800C5A215 /* DCRejectionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRejectionFilter.h; sourceTree = "<group>"; };
+		72F510891BA0FD6800C5A215 /* FFTHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTHelper.cpp; sourceTree = "<group>"; };
+		72F5108A1BA0FD6800C5A215 /* FFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTHelper.h; sourceTree = "<group>"; };
+		72F5108C1BA0FD6800C5A215 /* CABitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABitOperations.h; sourceTree = "<group>"; };
+		72F5108D1BA0FD6800C5A215 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		72F5108E1BA0FD6800C5A215 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		72F5108F1BA0FD6800C5A215 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		72F510901BA0FD6800C5A215 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		72F510911BA0FD6800C5A215 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		72F510921BA0FD6800C5A215 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		72F510931BA0FD6800C5A215 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		72F5109B1BA0FDA500C5A215 /* aurioTouch-Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "aurioTouch-Sample-Bridging-Header.h"; path = "aurioTouch-Sample/aurioTouch-Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F510591BA0FCD700C5A215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5106E1BA0FCD700C5A215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F510531BA0FCD700C5A215 = {
+			isa = PBXGroup;
+			children = (
+				72F5109B1BA0FDA500C5A215 /* aurioTouch-Sample-Bridging-Header.h */,
+				72F510811BA0FD6800C5A215 /* aurioTouch */,
+				72F5105E1BA0FCD700C5A215 /* aurioTouch-Sample */,
+				72F510741BA0FCD700C5A215 /* aurioTouch-SampleTests */,
+				72F5105D1BA0FCD700C5A215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F5105D1BA0FCD700C5A215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F5105C1BA0FCD700C5A215 /* aurioTouch-Sample.app */,
+				72F510711BA0FCD700C5A215 /* aurioTouch-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F5105E1BA0FCD700C5A215 /* aurioTouch-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				72F510611BA0FCD700C5A215 /* AppDelegate.swift */,
+				72F510631BA0FCD700C5A215 /* ViewController.swift */,
+				72F510651BA0FCD700C5A215 /* Main.storyboard */,
+				72F510681BA0FCD700C5A215 /* Images.xcassets */,
+				72F5106A1BA0FCD700C5A215 /* LaunchScreen.xib */,
+				72F5105F1BA0FCD700C5A215 /* Supporting Files */,
+			);
+			path = "aurioTouch-Sample";
+			sourceTree = "<group>";
+		};
+		72F5105F1BA0FCD700C5A215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F510601BA0FCD700C5A215 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F510741BA0FCD700C5A215 /* aurioTouch-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F510771BA0FCD700C5A215 /* aurioTouch_SampleTests.swift */,
+				72F510751BA0FCD700C5A215 /* Supporting Files */,
+			);
+			path = "aurioTouch-SampleTests";
+			sourceTree = "<group>";
+		};
+		72F510751BA0FCD700C5A215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F510761BA0FCD700C5A215 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F510811BA0FD6800C5A215 /* aurioTouch */ = {
+			isa = PBXGroup;
+			children = (
+				72F510821BA0FD6800C5A215 /* Classes */,
+				72F5108B1BA0FD6800C5A215 /* PublicUtility */,
+			);
+			name = aurioTouch;
+			path = "aurioTouch-Sample/aurioTouch";
+			sourceTree = "<group>";
+		};
+		72F510821BA0FD6800C5A215 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				72F510831BA0FD6800C5A215 /* AudioController.h */,
+				72F510841BA0FD6800C5A215 /* AudioController.mm */,
+				72F510851BA0FD6800C5A215 /* BufferManager.cpp */,
+				72F510861BA0FD6800C5A215 /* BufferManager.h */,
+				72F510871BA0FD6800C5A215 /* DCRejectionFilter.cpp */,
+				72F510881BA0FD6800C5A215 /* DCRejectionFilter.h */,
+				72F510891BA0FD6800C5A215 /* FFTHelper.cpp */,
+				72F5108A1BA0FD6800C5A215 /* FFTHelper.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		72F5108B1BA0FD6800C5A215 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				72F5108C1BA0FD6800C5A215 /* CABitOperations.h */,
+				72F5108D1BA0FD6800C5A215 /* CADebugMacros.cpp */,
+				72F5108E1BA0FD6800C5A215 /* CADebugMacros.h */,
+				72F5108F1BA0FD6800C5A215 /* CAMath.h */,
+				72F510901BA0FD6800C5A215 /* CAStreamBasicDescription.cpp */,
+				72F510911BA0FD6800C5A215 /* CAStreamBasicDescription.h */,
+				72F510921BA0FD6800C5A215 /* CAXException.cpp */,
+				72F510931BA0FD6800C5A215 /* CAXException.h */,
+			);
+			path = PublicUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F5105B1BA0FCD700C5A215 /* aurioTouch-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F5107B1BA0FCD700C5A215 /* Build configuration list for PBXNativeTarget "aurioTouch-Sample" */;
+			buildPhases = (
+				72F510581BA0FCD700C5A215 /* Sources */,
+				72F510591BA0FCD700C5A215 /* Frameworks */,
+				72F5105A1BA0FCD700C5A215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aurioTouch-Sample";
+			productName = "aurioTouch-Sample";
+			productReference = 72F5105C1BA0FCD700C5A215 /* aurioTouch-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72F510701BA0FCD700C5A215 /* aurioTouch-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F5107E1BA0FCD700C5A215 /* Build configuration list for PBXNativeTarget "aurioTouch-SampleTests" */;
+			buildPhases = (
+				72F5106D1BA0FCD700C5A215 /* Sources */,
+				72F5106E1BA0FCD700C5A215 /* Frameworks */,
+				72F5106F1BA0FCD700C5A215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F510731BA0FCD700C5A215 /* PBXTargetDependency */,
+			);
+			name = "aurioTouch-SampleTests";
+			productName = "aurioTouch-SampleTests";
+			productReference = 72F510711BA0FCD700C5A215 /* aurioTouch-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F510541BA0FCD700C5A215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Hz;
+				TargetAttributes = {
+					72F5105B1BA0FCD700C5A215 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					72F510701BA0FCD700C5A215 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 72F5105B1BA0FCD700C5A215;
+					};
+				};
+			};
+			buildConfigurationList = 72F510571BA0FCD700C5A215 /* Build configuration list for PBXProject "aurioTouch-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72F510531BA0FCD700C5A215;
+			productRefGroup = 72F5105D1BA0FCD700C5A215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F5105B1BA0FCD700C5A215 /* aurioTouch-Sample */,
+				72F510701BA0FCD700C5A215 /* aurioTouch-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F5105A1BA0FCD700C5A215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F510671BA0FCD700C5A215 /* Main.storyboard in Resources */,
+				72F5106C1BA0FCD700C5A215 /* LaunchScreen.xib in Resources */,
+				72F510691BA0FCD700C5A215 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5106F1BA0FCD700C5A215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F510581BA0FCD700C5A215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F5109A1BA0FD6800C5A215 /* CAXException.cpp in Sources */,
+				72F510961BA0FD6800C5A215 /* DCRejectionFilter.cpp in Sources */,
+				72F510641BA0FCD700C5A215 /* ViewController.swift in Sources */,
+				72F510941BA0FD6800C5A215 /* AudioController.mm in Sources */,
+				72F510991BA0FD6800C5A215 /* CAStreamBasicDescription.cpp in Sources */,
+				72F510621BA0FCD700C5A215 /* AppDelegate.swift in Sources */,
+				72F510971BA0FD6800C5A215 /* FFTHelper.cpp in Sources */,
+				72F510981BA0FD6800C5A215 /* CADebugMacros.cpp in Sources */,
+				72F510951BA0FD6800C5A215 /* BufferManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F5106D1BA0FCD700C5A215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F510781BA0FCD700C5A215 /* aurioTouch_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F510731BA0FCD700C5A215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F5105B1BA0FCD700C5A215 /* aurioTouch-Sample */;
+			targetProxy = 72F510721BA0FCD700C5A215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72F510651BA0FCD700C5A215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F510661BA0FCD700C5A215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72F5106A1BA0FCD700C5A215 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F5106B1BA0FCD700C5A215 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F510791BA0FCD700C5A215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72F5107A1BA0FCD700C5A215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F5107C1BA0FCD700C5A215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "aurioTouch-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "aurioTouch-Sample/aurioTouch-Sample-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		72F5107D1BA0FCD700C5A215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "aurioTouch-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "aurioTouch-Sample/aurioTouch-Sample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		72F5107F1BA0FCD700C5A215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aurioTouch-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aurioTouch-Sample.app/aurioTouch-Sample";
+			};
+			name = Debug;
+		};
+		72F510801BA0FCD700C5A215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aurioTouch-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aurioTouch-Sample.app/aurioTouch-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F510571BA0FCD700C5A215 /* Build configuration list for PBXProject "aurioTouch-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F510791BA0FCD700C5A215 /* Debug */,
+				72F5107A1BA0FCD700C5A215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F5107B1BA0FCD700C5A215 /* Build configuration list for PBXNativeTarget "aurioTouch-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F5107C1BA0FCD700C5A215 /* Debug */,
+				72F5107D1BA0FCD700C5A215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72F5107E1BA0FCD700C5A215 /* Build configuration list for PBXNativeTarget "aurioTouch-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F5107F1BA0FCD700C5A215 /* Debug */,
+				72F510801BA0FCD700C5A215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F510541BA0FCD700C5A215 /* Project object */;
+}
